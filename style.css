@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: black;
+  background-image: url(https://speckyboy.com/wp-content/uploads/2021/05/colorful-abstract-desktop-4k-wallpaper-27.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  align-items: center;
+  padding: 1rem 2rem;
+  width: 100vw;
+  height: 105px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.header span {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 5px;
+  padding-right: 100px;
+  text-decoration: underline;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.btn-box {
+  position: relative;
+  top: 40%;
+  left: 40%;
+  background-color: black;
+  background-image: url(https://speckyboy.com/wp-content/uploads/2021/05/colorful-abstract-desktop-4k-wallpaper-27.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-box button {
+  width: 120px;
+  height: 35px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+}
